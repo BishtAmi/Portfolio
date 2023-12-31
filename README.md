@@ -1,7 +1,7 @@
 Welcome to my portfolio website, where I showcase a comprehensive overview of my professional journey, achievements, skill set, and experiences. Explore my profile to learn more about who I am and the milestones I've achieved throughout my career. Whether you're interested in my skills, accomplishments, or want to discuss potential collaborations, feel free to reach out to me through the contact form provided. I look forward to connecting with you and exploring new opportunities together
 
 
-# Personal Portfolio Website in React
+# Personal Portfolio Website 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
