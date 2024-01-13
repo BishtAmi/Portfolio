@@ -48,15 +48,15 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter5} alt="Image" />
+                  <img src={meter5} alt="Image" height={15} width={10} />
                   <h5>C++</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Image"height={15} width={10} />
                   <h5>Data Structures and Algorithms</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="Image"  />
                   <h5>Web 3</h5>
                 </div>
                 <div className="item">

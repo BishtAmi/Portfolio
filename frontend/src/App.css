@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
-  color: red;
+  color: #b22f84;
 }
 
 /************ Skills Css ************/
@@ -728,4 +728,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .about form button:hover::before {
   width: 100%;
+}
+
+.item img {
+  max-width: 90px; /* Set the maximum width */
+  max-height: 75px; /* Set the maximum height */
+  width: auto; /* Allow the width to adjust proportionally */
+  height: auto; /* Allow the height to adjust proportionally */
+}
+
+.project img {
+  max-width: 350px; /* Set the maximum width */
+  max-height: 150px; /* Set the maximum height */
+  width: auto; /* Allow the width to adjust proportionally */
+  height: auto; /* Allow the height to adjust proportionally */
 }

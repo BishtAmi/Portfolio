@@ -10,6 +10,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  // const buttonStyle = {
+  //   borderRadius: '10px', // Set the border-radius to control the roundness of corners
+  //   padding: '10px 20px', // Adjust padding as needed
+  // //  backgroundColor: '#3498db', // Set the background color
+  //   //color: '#ffffff', // Set the text color
+  //   cursor: 'pointer', // Change cursor on hover
+  //   outline: 'none', // Remove the default button outline
+  //   border: 'none', // Remove the default button border
+  // };
 
   useEffect(() => {
     const onScroll = () => {
@@ -95,7 +104,7 @@ export const NavBar = () => {
                 </a>
               </div>
               <HashLink to="#connect">
-                <button className="vvd">
+                <button >
                   <span>Let’s Connect</span>
                 </button>
               </HashLink>

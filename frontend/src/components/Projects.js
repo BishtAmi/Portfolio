@@ -6,7 +6,6 @@ import Stopwatch from "../assets/img/stopwatch.jpg";
 import blog from "../assets/img/blog.jpg";
 import ride from "../assets/img/riding.webp";
 
-
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -14,13 +13,13 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Web 3 SmartContract",
+      title: "Decentralized Lending and Borrowing",
       description: "Loan and Payment",
       imgUrl: web3,
       linkTo: "https://github.com/BishtAmi/Web3.solana",
     },
     {
-      title: "AlgoTrading",
+      title: "Algorithms Based Trading",
       description: "Trading using Algorithms",
       imgUrl: algo,
       linkTo: "https://github.com/BishtAmi/AlgoTrading",
@@ -32,7 +31,7 @@ export const Projects = () => {
       linkTo: "https://github.com/BishtAmi/NITA-BLOG",
     },
     {
-      title: "Namma Yatri Hackathon Project",
+      title: "Namma Yatri Project",
       description: "Made Booking Simple",
       imgUrl: ride,
       linkTo: "https://github.com/BishtAmi/Namma-Yatri-Hackathon",
@@ -58,9 +57,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
-                    Here are some recent projects I have worked on recently.
-                  </p>
+
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -83,12 +80,17 @@ export const Projects = () => {
                         isVisible ? "animate__animated animate__slideInUp" : ""
                       }
                     >
+                      <p>
+                        Here are some recent projects I have worked on recently.
+                      </p>
                       <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard  {...project} />;
-                          })}
-                        </Row>
+                        <div className="project">
+                          <Row>
+                            {projects.map((project, index) => {
+                              return <ProjectCard {...project} />;
+                            })}
+                          </Row>
+                        </div>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
