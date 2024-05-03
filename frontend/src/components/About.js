@@ -16,8 +16,8 @@ export const About = () => {
               {/* s */}
               <p>
                 {" "}
-                &#9733; Acheived Highest rating of 1412(Specialist) in{" "}
-                <a href="https://codeforces.com/profile/ami_2025">
+                &#9733; Acheived Highest rating of 1504(Specialist) in{" "}
+                <a href="https://codeforces.com/profile/cricketer_hu_M">
                   {" "}
                   Codeforces
                 </a>{" "}
@@ -30,9 +30,9 @@ export const About = () => {
                   Codechef
                 </a>{" "}
                 <br></br>
-                &#9733; Secured Global Rank- 1038 in Google Kickstart Round G
+                &#9733; Secured a global Rank- 1038 in Google Kickstart Round G
                 2022 <br></br>
-                &#9733; Secured Global Rank- 385 in TCS Codevita 2024 amoung 1 Lakh students from across 63 countries
+                &#9733; Secured a global rank of 385 in TCS Codevita 2024 among 100,000 students from 63 countries worldwide
                 <br></br>
                 &#9733; Qualified Google Codejam Qualification Round -2022, Meta
                 HackerCup Round 1 <br></br>

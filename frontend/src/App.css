@@ -735,6 +735,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   max-height: 75px; /* Set the maximum height */
   width: auto; /* Allow the width to adjust proportionally */
   height: auto; /* Allow the height to adjust proportionally */
+  overflow: hidden;
 }
 
 .project img {

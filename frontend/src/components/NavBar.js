@@ -89,9 +89,9 @@ export const NavBar = () => {
                 <a href="https://github.com/BishtAmi">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://www.instagram.com/amitsinghbisht_18/">
+                {/* <a href="https://www.instagram.com/amitsinghbisht_18/">
                   <img src={navIcon3} alt="" />
-                </a>
+                </a> */}
               </div>
               <HashLink to="#connect">
                 <button >

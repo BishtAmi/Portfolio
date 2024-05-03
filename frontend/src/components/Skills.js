@@ -7,10 +7,11 @@ import meter6 from "../assets/img/rust.png";
 import meter7 from "../assets/img/ts.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import mongod from "../assets/img/mongod.png";
 import colorSharp from "../assets/img/color-sharp.png";
-
+import sql from "../assets/img/sql.png";
+import fastapi from "../assets/img/FastAPI.png";
+import nextjs from "../assets/img/nextjs.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -46,7 +47,7 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter5} alt="Image" height={15} width={10} />
+                  <img src={meter5} alt="Image" />
                   <h5>C++</h5>
                 </div>
                 <div className="item">
@@ -65,6 +66,22 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter7} alt="Image" />
                   <h5>JavaScript / TypeScript</h5>
+                </div>
+                <div className="item">
+                  <img src={mongod} alt="Image" height={15} width={10} />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={nextjs} alt="Image" height={15} width={10} />
+                  <h5>Next.js</h5>
+                </div>
+                <div className="item">
+                  <img src={sql} alt="Image" height={15} width={10} />
+                  <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={fastapi} alt="Image" height={15} width={10} />
+                  <h5>FASTAPI</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" height={15} width={10} />

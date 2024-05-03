@@ -5,13 +5,26 @@ import algo from "../assets/img/algo.jpg";
 import Stopwatch from "../assets/img/stopwatch.jpg";
 import blog from "../assets/img/blog.jpg";
 import ride from "../assets/img/riding.webp";
-
+import blind from "../assets/img/blind.webp";
+import food from "../assets/img/food.jpeg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Food Zila",
+      description: "Campus Food Delivery App",
+      imgUrl: food,
+      linkTo: "https://github.com/BishtAmi/Campus-food-delivery",
+    },
+    {
+      title: "Blind Coding",
+      description: "A College Event Website",
+      imgUrl: blind,
+      linkTo: "https://github.com/BishtAmi/Blind_Coding",
+    },
     {
       title: "Decentralized Lending and Borrowing",
       description: "Loan and Payment",
@@ -35,13 +48,7 @@ export const Projects = () => {
       description: "Made Booking Simple",
       imgUrl: ride,
       linkTo: "https://github.com/BishtAmi/Namma-Yatri-Hackathon",
-    },
-    {
-      title: "Stopwatch",
-      description: "Do it on Time",
-      imgUrl: Stopwatch,
-      linkTo: "https://github.com/BishtAmi/Stopwatch-JS",
-    },
+    }
   ];
 
   return (
